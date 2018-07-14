@@ -1,5 +1,5 @@
-# Discord BOTAPIを用いてBotを作る
-※備忘録
+# DiscordのAPIを用いてBotを作る
+※私的備忘録
 
 ## **必要なもの**
    - python (今回は3.6.5を使用)
