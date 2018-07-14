@@ -6,7 +6,7 @@
    - Discord BOTユーザー及びそのトークン 
 
 ## **1. pythonの導入**
-   1. 公式サイト(https://www.python.org/downloads)からWindows版Pythonインストーラをダウンロードする。
+   1. [公式サイト](https://www.python.org/downloads)からWindows版Pythonインストーラをダウンロードする。
    
    2. ダウンロードしたインストーラを実行し、作業を完了させる。(環境変数にpythonのパスを書き込むか聞かれた場合は、承諾することで手動でのパス設定を省ける。)
 
