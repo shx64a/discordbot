@@ -23,7 +23,13 @@
    pip 10.0.1 from C:\Program Files\Python36\lib\site-packages\pip (python 3.6)
    ```
 
-   ※```python -m pip install --upgrade pip``` が表示される場合は実行しておく。
+   ※使用中のpipバージョンよりも最新のバージョンにアップデート出来る旨が表示された場合は
+   
+   ```terminal
+   python -m pip install --upgrade pip
+   
+   ```
+   を実行することで更新可能。
 
    2. 続いて、
    
@@ -31,7 +37,7 @@
    python -m pip install discord
    ```
   
-   を実行する。
+   を実行しパッケージをインストールする。
 
    実行結果
    
@@ -39,7 +45,7 @@
     Successfully installed aiohttp-1.0.5 async-timeout-3.0.0 chardet-3.0.4 discord-0.0.2 discord.py-0.16.12 multidict-4.3.1 websockets-3.4
    ```
 
-   3. パッケージが正常にインストール出来たか確認するには
+   3. 正常にインストール出来たか確認するには
 
    ```terminal
    python -m pip freeze
