@@ -3,6 +3,9 @@
 
 ## **必要なもの**
    - python (今回は3.6.5を使用)
+    - discord.py
+    - PyNaCl
+    - youtube-dl
    - Discord BOTユーザー及びそのトークン 
 
 ## **1. pythonの導入**
@@ -33,16 +36,10 @@
    2. 続いて、
    
    ```terminal
-   python -m pip install discord
+   pip install discord pynacl youtube-dl
    ```
   
    を実行しパッケージをインストールする。
-
-   実行結果
-   
-   ```terminal
-    Successfully installed aiohttp-1.0.5 async-timeout-3.0.0 chardet-3.0.4 discord-0.0.2 discord.py-0.16.12 multidict-4.3.1 websockets-3.4
-   ```
 
    3. 正常にインストール出来たかを確認するには
 
@@ -67,5 +64,9 @@
    [~~Qiitaの記事に丸投げ~~](https://qiita.com/PinappleHunter/items/af4ccdbb04727437477f#botを書く)   
 
 ## **5. 実際に使ってみる**
+   4.で作成した.pyのディレクトリをコマンドプロンプトで開き、BOTを起動させる。
 
+   ```terminal
+   python filename.py
+   ```
    以上。
