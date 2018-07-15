@@ -2,11 +2,11 @@
 ※私的備忘録
 
 ## **必要なもの**
-   - python (今回は3.6.5を使用)
+  - python (今回は3.6.5を使用)
     - discord.py
     - PyNaCl
     - youtube-dl
-   - Discord BOTユーザー及びそのトークン 
+  - Discord BOTユーザー及びそのトークン 
 
 ## **1. pythonの導入**
    1. [公式サイト](https://www.python.org/downloads)からWindows版Pythonインストーラをダウンロードする。
@@ -61,7 +61,7 @@
    4. ページ上部にスクロールし「Generate OAuth2 URL」からSCOPES欄にあるURLをコピー。コピーしたURLにアクセスしプルダウンから自分のサーバーを選び認証する。
 
 ## **4. BOTプログラム**
-   [~~Qiitaの記事に丸投げ~~](https://qiita.com/PinappleHunter/items/af4ccdbb04727437477f#botを書く)   
+   参考:[Pythonで簡単なDiscord Botの作り方 - Qiita](https://qiita.com/PinappleHunter/items/af4ccdbb04727437477f#botを書く) 
 
 ## **5. 実際に使ってみる**
    4.で作成した.pyのディレクトリをコマンドプロンプトで開き、BOTを起動させる。
