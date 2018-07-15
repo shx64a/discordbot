@@ -1,8 +1,8 @@
-# DiscordのAPIを用いてBotを作る
+# DiscordのAPIを用いてBOTを作る
 ※私的備忘録
 
 ## **必要なもの**
-  - python (今回は3.6.5を使用)
+  - python (今回は3.6.5を使用。)
     - discord.py
     - PyNaCl
     - youtube-dl
