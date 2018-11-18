@@ -2,7 +2,7 @@
 ※私的備忘録
 
 ## **必要なもの**
-  - python (今回は3.6.5を使用。)
+  - python (今回は3.6.5を使用。) 追記(2018/11/19):現時点ではdiscord.pyがPython 3.7に対応していないので3.5～3.6.xまでのバージョンを使用すること。
     - discord.py
     - PyNaCl
     - youtube-dl
@@ -66,7 +66,7 @@
    参考:[Pythonで簡単なDiscord Botの作り方 - Qiita](https://qiita.com/PinappleHunter/items/af4ccdbb04727437477f#botを書く) 
 
 ## **5. 実際に使ってみる**
-   4.で作成した.pyのディレクトリをコマンドプロンプトで開き、BOTを起動させる。
+   4.で作成したBOTのディレクトリをコマンドプロンプトで開き、起動させる。
 
    ```terminal
    python filename.py
